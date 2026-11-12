@@ -1,0 +1,18 @@
+info:
+  name: 7. DELETE Materia
+  type: http
+  seq: 7
+
+http:
+  method: DELETE
+  url: http://localhost:8092/api/materias/1
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJpcnZpbmdAZWplbXBsby5jb20iLCJpYXQiOjE3OTQ0NjYxNDksImV4cCI6MTc5NDU1MjU0OX0.M97rmB78qhEYqOPiQKo-jRnmXHnSiXpVPViYQcGwSLs
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

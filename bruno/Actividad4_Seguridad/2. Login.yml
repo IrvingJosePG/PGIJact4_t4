@@ -1,0 +1,23 @@
+info:
+  name: 2. Login
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: http://localhost:8092/api/auth/login
+  body:
+    type: json
+    data: |
+      {
+          "email": "irving@ejemplo.com",
+          "password": "mi_password_secreto"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

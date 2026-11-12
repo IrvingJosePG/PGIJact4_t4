@@ -1,0 +1,25 @@
+info:
+  name: 5. GET Materias (Paginado)
+  type: http
+  seq: 5
+
+http:
+  method: GET
+  url: http://localhost:8092/api/materias?page=0&size=5
+  params:
+    - name: page
+      value: "0"
+      type: query
+    - name: size
+      value: "5"
+      type: query
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJpcnZpbmdAZWplbXBsby5jb20iLCJpYXQiOjE3OTQ0NjYxNDksImV4cCI6MTc5NDU1MjU0OX0.M97rmB78qhEYqOPiQKo-jRnmXHnSiXpVPViYQcGwSLs
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
