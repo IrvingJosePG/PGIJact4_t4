@@ -5,12 +5,12 @@ info:
 
 http:
   method: PUT
-  url: http://localhost:8092/api/materias/1
+  url: http://167.99.15.140:8092/api/materias/1
   body:
     type: json
     data: |-
       {
-          "nombre": "Historia Universal"
+          "nombre": "Geografia Universal"
       }
   auth:
     type: bearer

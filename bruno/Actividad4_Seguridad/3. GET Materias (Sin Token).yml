@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: http://localhost:8092/api/materias
+  url: http://167.99.15.140:8092/api/materias
   auth: inherit
 
 settings:

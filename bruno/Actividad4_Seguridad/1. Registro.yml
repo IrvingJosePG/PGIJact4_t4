@@ -5,13 +5,13 @@ info:
 
 http:
   method: POST
-  url: http://localhost:8092/api/auth/register
+  url: http://167.99.15.140:8092/api/auth/register
   body:
     type: json
     data: |-
       {
-        "nombre": "Irving",
-        "email": "irving@ejemplo.com",
+        "nombre": "Jose",
+        "email": "jose@ejemplo.com",
         "password": "mi_password_secreto"
       }
   auth: inherit

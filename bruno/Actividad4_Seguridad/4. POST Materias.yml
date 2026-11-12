@@ -5,12 +5,12 @@ info:
 
 http:
   method: POST
-  url: http://localhost:8092/api/materias
+  url: http://167.99.15.140:8092/api/materias
   body:
     type: json
     data: |-
       {
-          "nombre": "Historia"
+          "nombre": "Geografia"
       }
   auth:
     type: bearer
