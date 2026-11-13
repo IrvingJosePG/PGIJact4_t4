@@ -18,12 +18,11 @@ Autentica al usuario y devuelve el token JWT válido por 24 horas.
 
 ## Endpoints del CRUD - Entidad Materia (Privados - Requieren Token JWT)
 
-## 2. Endpoints del CRUD - Materias (Privados - Requieren JWT)
 *Todas estas peticiones incluyen el token JWT en el header `Authorization: Bearer <token>`. Si no se incluye, la API responderá con un error `403 Forbidden`*
 
 ### Crear Materia (`POST /api/materias`)
 Valida mediante DTO que los datos no estén vacíos. Devuelve código 201 Created.
-![Captura Crear Materia](img/post_materia.png)
+![Captura Crear Materia](img/post_materias.png)
 
 ### Leer Materias (`GET /api/materias`)
 Devuelve la lista de materias implementando paginación. Devuelve código 200 OK.
